@@ -50,7 +50,7 @@ The whole program was written in Python.
 
     `cd IF2211-convexHull`
     
-3. Run `python ` on the command line
+3. Run `python main.py` on the command line
 
 ### Usage
 1. After you run the program, you can choose the dataset you want to visualize
