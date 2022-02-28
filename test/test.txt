@@ -1,0 +1,5 @@
+Dataset yang diuji pada program Convex Hull Solver ini, antara lain:
+1. load_iris
+2. load_breast_cancer
+3. load_digits
+4. load_wine
