@@ -168,8 +168,8 @@ def madeByMe(df, title, xLabel, yLabel, xCol, yCol, labelName, fileName):
     color = color2(labelSize)
 
     plt.title(title)
-    plt.xLabel(xLabel)
-    plt.yLabel(yLabel)
+    plt.xlabel(xLabel)
+    plt.ylabel(yLabel)
     
     print("Such points that are located in convex hull are in the list below:")
     for i in range(labelSize):
@@ -190,8 +190,8 @@ def madeByPython(df, title, xLabel, yLabel,xCol, yCol, labelName, fileName):
     color = color1(labelSize)
 
     plt.title(title)
-    plt.xLabel(xLabel)
-    plt.yLabel(yLabel)
+    plt.xlabel(xLabel)
+    plt.ylabel(yLabel)
 
     for i in range(labelSize):
         bucket = df[df['label'] == i]
